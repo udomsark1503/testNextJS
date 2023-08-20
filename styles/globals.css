@@ -21,7 +21,7 @@ nav a:hover {
   text-align: right;
 }
 footer {
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -29,4 +29,40 @@ footer {
 }
 footer p {
   color: gray;
+}
+.BlogMap {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.MyMap {
+  width: 60%;
+  height: auto;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+  flex-wrap: wrap;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.myinfo_contact {
+  text-align: left;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 1rem;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background: linear-gradient(300deg, #F8F6F4, #D2E9E9, #E3F4F4);
+  background-size: 180% 180%;
+  animation: gradient-animation 4s ease infinite;
+  flex-wrap: wrap;
 }
