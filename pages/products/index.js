@@ -43,7 +43,7 @@ export default function Index ({products}) {
         
       <FloatButton 
       tooltip={<div className={styles.addToCart}>
-        <h2>My Cart</h2>
+        <h4>My Cart</h4>
         <ul>
         {cartItems.map((item, index) => (
           <li key={index}>

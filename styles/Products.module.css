@@ -37,4 +37,7 @@
 }
 .addToCart {
     font-size: 0.6rem;
+    width: 300%;
+    height: 100%;
+    padding-right: 100px;
 }

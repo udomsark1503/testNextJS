@@ -36,6 +36,9 @@ footer p {
   text-align: center;
   justify-content: center;
 }
+.AllBlog {
+  justify-content: space-around;
+}
 .MyMap {
   width: 60%;
   height: auto;
@@ -65,4 +68,7 @@ footer p {
   background-size: 180% 180%;
   animation: gradient-animation 4s ease infinite;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

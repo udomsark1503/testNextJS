@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import QR_Code from "@/components/QRcode";
 
 const about = () => {
     return (
@@ -22,15 +23,15 @@ const about = () => {
                     Faculty of Business Management <br />
                     GPA : 3.24
                     </p>
-                </div>
-
-                <div>
                     <ul>
                         <li>My Address : 166/671 Niran Condotel 2, DonMueang</li>
                         <li>My number : 087-1503161</li>
                         <li>My E-mail : udomsark1863@hotmail.com</li>
                     </ul>
                 </div>
+                    <div style={{alignItems:'center'}}>
+                        <QR_Code />
+                    </div>
             </div>
 
         </div>
